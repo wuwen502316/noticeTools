@@ -8,11 +8,11 @@ const cssRel = "stylesheet";
 const cssType = "text/css";
 const head = document.querySelector("head");
 const body = document.querySelector("body");
-for(let i = 0 ; i < cssHref.length; i++){
+for(let i = 0 ; i < cssFileName.length; i++){
 	let link = document.createElement("link");
 	link.rel = cssRel;
 	link.type = cssType;
-	link.href = `${URL}/css/${cssHref[i]}/.css`;
+	link.href = `${URL}/css/${cssFileName[i]}/.css`;
 	head.appendChild(link);
 }
 
