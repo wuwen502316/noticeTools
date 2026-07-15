@@ -1,4 +1,4 @@
-(function(){
+(function(){ 
 //加载css配置
 //https://wuwen502316.github.io/noticeTools/css/pbulic.css;
 
